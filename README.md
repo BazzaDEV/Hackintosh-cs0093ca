@@ -99,6 +99,11 @@ Still, make sure you either don't have those options or you've toggled them on/o
 
 *(I forgot to disable Secure Boot, if that helps anyone.)*  
 
+## Post-Install
+
+### Fixing Audio
+
+Follow the official section of the post-install guide regarding this section [here](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id).
 ## Random Notes
 
 *These are for me to come back to if necessary. They may or may not apply to your case, so just try to go through the guide normally and come back here to see if there's anything useful for you to look into.*
