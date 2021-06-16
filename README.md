@@ -5,23 +5,24 @@
 *Disclaimer: I have upgraded some parts in this system. They are annotated as such.*
 
 ### Processor
-**CPU**: Intel Core i7-8550U @ 1.80GHz w/ Turbo Boost up to 4.00GHz (Kaby Lake R) (8.0 MB L3 cache, 2400-MHz FSB, 15 W)
+![](https://img.shields.io/badge/-OEM-green) **CPU**: Intel Core i7-8550U @ 1.80GHz w/ Turbo Boost up to 4.00GHz (Kaby Lake R) (8.0 MB L3 cache, 2400-MHz FSB, 15 W)  
 
 ### Graphics
-**iGPU**: Intel UHD Graphics 620  
-**dGPU**: NVIDIA GeForce MX150  
+![](https://img.shields.io/badge/-OEM-green) **iGPU**: Intel UHD Graphics 620  
+![](https://img.shields.io/badge/-OEM-green) **dGPU**: NVIDIA GeForce MX150  
 
 ### Memory
-GSkill Ripjaws 16GB 2400MHz DDR4 SO-DIMMs (2x8GB)  
+![](https://img.shields.io/badge/non--OEM-red) GSkill Ripjaws 16GB 2400MHz DDR4 SO-DIMMs (2x8GB)  
 
 ### Storage
-**For Windows**: WD Black SN750 M.2 NVMe SSD - 500GB  
-**For macOS**: Kingston SA400S37 SATA SSD - 240GB  
+![](https://img.shields.io/badge/non--OEM-red) WD Black SN750 M.2 NVMe SSD - 500GB *For Windows*  
+![](https://img.shields.io/badge/non--OEM-red) Kingston SA400S37 SATA SSD - 240GB *For macOS*  
 
 ### Connectivity
-**Ethernet**: Realtek 8168   
-(*Realtek PCIe GbE Family Controller* is shown, but I extracted the exact model by looking at "Properties", navigating to "Details", then selecting "Drive node strong name" from the "Property" dropdown)  
-**WLAN/Bluetooth**: Intel Dual Band Wireless-AC 7265 802.11ac 2 × 2 Wi-Fi + Bluetooth 4.2 Combo Adapter (non-vPro)  
+![](https://img.shields.io/badge/-OEM-green) **Ethernet**: Realtek 8168   
+- (*Realtek PCIe GbE Family Controller* is shown, but I extracted the exact model by looking at "Properties", navigating to "Details", then selecting "Drive node strong name" from the "Property" dropdown)  
+
+![](https://img.shields.io/badge/-OEM-green) **WLAN/Bluetooth**: Intel Dual Band Wireless-AC 7265 802.11ac 2 × 2 Wi-Fi + Bluetooth 4.2 Combo Adapter (non-vPro)  
 
 ## Important Notices
 
