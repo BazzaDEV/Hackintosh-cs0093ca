@@ -91,6 +91,8 @@ This was straight forward as well, but more so because the majority of these opt
 
 Still, make sure you either don't have those options or you've toggled them on/off accordingly.
 
+*(I forgot to disable Secure Boot, if that helps anyone.)*  
+
 ## Random Notes
 
 *These are for me to come back to if necessary. They may or may not apply to your case, so just try to go through the guide normally and come back here to see if there's anything useful for you to look into.*
