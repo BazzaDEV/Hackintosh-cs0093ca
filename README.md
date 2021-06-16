@@ -23,6 +23,7 @@
 - (*Realtek PCIe GbE Family Controller* is shown, but I extracted the exact model by looking at "Properties", navigating to "Details", then selecting "Drive node strong name" from the "Property" dropdown)  
 
 ![](https://img.shields.io/badge/-OEM-green) **WLAN/Bluetooth**: Intel Dual Band Wireless-AC 7265 802.11ac 2 × 2 Wi-Fi + Bluetooth 4.2 Combo Adapter (non-vPro)  
+![](https://img.shields.io/badge/-OEM-green) **Audio**: Realtek ALC295
 
 ## Important Notices
 
@@ -84,6 +85,11 @@ I will mention a few things below, which were either unclear, ambiguous, or supe
 - `UEFI -> Quirks`:
   - `UnblockFsConnect` is set to `TRUE`. This is only explicity mentioned at the end of the guide, and I almost missed it.  
   *(In their defence, there is a comment when we first run into it in the guide saying it's needed mainly by HP motherboards but I missed that too.)*
+
+- `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args`:
+  - For `alcid=1`, replace `1` with the correct value to fix audio. You need to find which audio codec your PC is using first - this was quite difficult for me and I had to resort to booting Ubuntu from a USB, then using `cat /proc/asound/card0/codec#0 | less` to find the codec. 
+  - **Mine was Realtek ALC295.**
+  - For proper guidance, please follow [this section](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id) of the post-install guide for complete instructions.
 
 ## BIOS
 
