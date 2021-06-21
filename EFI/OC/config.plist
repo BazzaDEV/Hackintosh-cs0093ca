@@ -1011,7 +1011,7 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>Short</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1245,7 +1245,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02904405J9HWVP1M</string>
+			<string>C02923701QXHWVP1H</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1257,9 +1257,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Y5KYNHV29</string>
+			<string>C02YTMZ2HV29</string>
 			<key>SystemUUID</key>
-			<string>37867FB4-6011-4488-B81B-6E6A445C4C86</string>
+			<string>370A1195-737E-4E44-B15A-39A7FBB9E7E9</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
